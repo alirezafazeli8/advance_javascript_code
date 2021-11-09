@@ -1,0 +1,35 @@
+What's I Learned In This Advance Course?
+
+---------------
+
+- What is JavaScript Engine?
+
+    - V8 Engine
+
+    - AST
+
+    - EcmaScript
+
+    - Interpreter Compiling
+
+    - JIT Compiler
+
+    - Profiler
+
+    - Garbage Collection
+
+    - Stack overFlow
+
+    - Memory Leaks
+
+    - Memory Heap
+
+    - Call Stack
+
+    - RunTime JavaScript
+
+    - Web APi (in Engine)
+
+    - What Is Node.js
+
+
