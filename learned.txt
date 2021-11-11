@@ -32,4 +32,33 @@ What's I Learned In This Advance Course?
 
     - What Is Node.js
 
+    - global execution context
 
+        - global object
+
+        - this object
+
+    - lexical environment
+    
+    - Hoisting
+
+
+    - Function Invocation
+
+        - arguments variable in function
+
+    - Scope Chain
+
+        - lexical scope
+
+        - global scope
+
+        - local scope
+
+
+    - IIFE function (immediately invoked function expression)
+
+        - argument in IIFE function
+
+
+    - use same code for multiple objects with this keyword
