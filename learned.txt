@@ -49,3 +49,21 @@ Whats I Learned?
     - label tag for checkbox in html
 
     - select and option tag in html
+
+- crud
+    
+    - localStorage
+
+        - localStorage.setItem();
+
+        - localStorage.getItem();
+
+        - localStorage.removeItem();
+
+        - localStorage.clear();
+
+- json
+
+    JSON.stringify();
+
+    JSON.parse();
