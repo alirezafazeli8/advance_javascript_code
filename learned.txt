@@ -1,64 +1,51 @@
-What's I Learned In This Advance Course?
+Whats I Learned?
 
----------------
+- DOM
 
-- What is JavaScript Engine?
+    - what is DOM
 
-    - V8 Engine
+    - .querySelector();
 
-    - AST
+    - .remove();
 
-    - EcmaScript
+    - .querySelectorAll();
 
-    - Interpreter Compiling
+    - .textContent
 
-    - JIT Compiler
+    - .createElement();
 
-    - Profiler
+    - .appendChild();
 
-    - Garbage Collection
+    - .addEventListener();
 
-    - Stack overFlow
+    - event object
 
-    - Memory Leaks
+    - e.target
 
-    - Memory Heap
+    - change event (new)
 
-    - Call Stack
+    - input event (new)
 
-    - RunTime JavaScript
+    - submit event
 
-    - Web APi (in Engine)
+    - event.preventDefault();
 
-    - What Is Node.js
+    نکته: نکته اصلی جاوااسکریپت اینه که از رفرش جلوگیری کنه.
 
-    - global execution context
+    - e.target.elements.elementName (new)
 
-        - global object
+    - change event for checkbox
 
-        - this object
+    - checked property in event.target
 
-    - lexical environment
-    
-    - Hoisting
+    - e.target.value
+ 
 
+     
+- .include() (string method)
 
-    - Function Invocation
+- Html 
 
-        - arguments variable in function
+    - label tag for checkbox in html
 
-    - Scope Chain
-
-        - lexical scope
-
-        - global scope
-
-        - local scope
-
-
-    - IIFE function (immediately invoked function expression)
-
-        - argument in IIFE function
-
-
-    - use same code for multiple objects with this keyword
+    - select and option tag in html
