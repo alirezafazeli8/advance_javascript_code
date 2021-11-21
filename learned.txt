@@ -67,3 +67,10 @@ Whats I Learned?
     JSON.stringify();
 
     JSON.parse();
+
+
+- split code (yani sakht file haye mojaza baraye ghesmat haye mokhtalef application man, mesl functions)
+
+- .setAttribute();
+
+- node-uuid package
