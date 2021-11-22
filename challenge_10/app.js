@@ -37,11 +37,11 @@ findInput.addEventListener("input", function (e) {
 
 products.forEach((item) => {
   createElement(item);
-  removeButton(products);
 });
 
-
 existCheckBox.addEventListener("change", function (e) {
-  existCheckBoxFunc(e, products)
-})
+  existCheckBoxFunc(e, products);
+});
 
+removeButton(products);
+refreshJson(products);

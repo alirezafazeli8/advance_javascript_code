@@ -6,22 +6,36 @@ const refreshProduct = function (pro) {
   removeButton(pro);
 };
 
-const removeButton = function (pro) {
-  document.querySelectorAll(".remove-button").forEach((item) => {
-    item.addEventListener("click", function (e) {
-      const container = e.target.parentElement.parentElement;
+const refreshJson = function (proJ) {
+  // convert to string
+  const convertProToStr = JSON.stringify(proJ);
 
+  // add to local Storage
+  localStorage.setItem("products", convertProToStr);
+};
 
+const removeButton = function (proRemove) {
+  const removeButtonsAll = document.querySelectorAll(".remove-button");
 
-      const targetPro = pro.findIndex((value) => value.id === container.id);
+  removeButtonsAll.forEach((reFor) => {
+    reFor.addEventListener("click", (e) => {
+      const removeButtonContainer = e.target.parentElement.parentElement;
 
+      // remove element from page
+      removeButtonContainer.remove();
 
-        products.slice(targetPro + 1);
-        
-        const el = document.getElementById(container.id);
+      // know the index of element
+      const containerID = removeButtonContainer.id;
 
-        el.remove();
+      const indexOfProArray = proRemove.findIndex((value) => {
+        return value.id == containerID;
+      });
 
+      // remove element from array
+      products.splice(indexOfProArray, 1);
+
+      // refreshJson
+      refreshJson(products);
     });
   });
 };
@@ -53,6 +67,9 @@ const addProduct = function (products) {
 
   createElement(newProObj);
   removeButton(products);
+
+  // refreshJSon
+  refreshJson(products);
 };
 
 // search function
@@ -72,7 +89,7 @@ const searchFunc = function (pro, v) {
     .forEach((forEachProduct) => {
       // create and remove button element is added for these products
       createElement(forEachProduct);
-      removeButton(forEachProduct);
+      removeButton(products);
     });
 };
 
@@ -88,12 +105,12 @@ const existCheckBoxFunc = function (event, productsArg) {
       })
       .forEach((existForEach) => {
         createElement(existForEach);
-        removeButton(existForEach);
+        removeButton(products);
       });
   } else {
     products.forEach((pro) => {
       createElement(pro);
-      removeButton(pro);
+      removeButton(products);
     });
   }
 };
