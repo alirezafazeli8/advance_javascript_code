@@ -74,3 +74,22 @@ Whats I Learned?
 - .setAttribute();
 
 - node-uuid package
+
+- new Promise(resolve, reject);
+
+    - myPromise.then(value);
+
+    - myPromise.catch(value);
+
+    - myPromise.all([]);
+    // nokte: age hata yekdoone az item haye toye all reject bashe in faghat reject ro neshoon mide.
+
+    - Promise shorthand
+
+    - Promise.any([]);
+
+    - Promise.race([]);
+
+    - Promise.allSettled([]);
+
+    - myPromise.finally();
