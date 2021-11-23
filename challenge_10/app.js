@@ -6,23 +6,11 @@ const productContainer = document.querySelector(".pro-container");
 const existCheckBox = document.getElementById("exist-checkbox");
 const addProductInput = document.getElementById("add-product-input");
 
-let products = [
-  {
-    name: "benz-g",
-    exist: true,
-    id: "435434ds35454654",
-  },
-  {
-    name: "javascript",
-    exist: true,
-    id: "435434354dasdasda54654",
-  },
-  {
-    name: "php is so bad",
-    exist: false,
-    id: "43543dasgggasd435454654",
-  },
-];
+let products = [];
+
+const localCreate = JSON.parse(localStorage.getItem("products"));
+
+// let localCreate;
 
 addProductForm.addEventListener("submit", function (e) {
   e.preventDefault();
@@ -32,10 +20,10 @@ addProductForm.addEventListener("submit", function (e) {
 });
 
 findInput.addEventListener("input", function (e) {
-  searchFunc(products, e.target.value);
+  searchFunc(localCreate, e.target.value);
 });
 
-products.forEach((item) => {
+localCreate.forEach((item) => {
   createElement(item);
 });
 

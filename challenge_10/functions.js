@@ -12,6 +12,10 @@ const refreshJson = function (proJ) {
 
   // add to local Storage
   localStorage.setItem("products", convertProToStr);
+
+  const convertProToArr = JSON.parse(localStorage.getItem("products"));
+
+  products = convertProToArr;
 };
 
 const removeButton = function (proRemove) {
@@ -33,8 +37,6 @@ const removeButton = function (proRemove) {
 
       // remove element from array
       products.splice(indexOfProArray, 1);
-
-      // refreshJson
       refreshJson(products);
     });
   });
@@ -45,7 +47,7 @@ const createElement = function (product) {
     <div id="${product.id}" >
       <span>${product.name}</span>
       <div>
-        <input type="checkbox" >
+        <input type="checkbox" class="eCheck">
         <br>
         <button class="remove-button">remove</button>
       </div>
@@ -96,21 +98,21 @@ const searchFunc = function (pro, v) {
 // exist function
 const existCheckBoxFunc = function (event, productsArg) {
   productContainer.innerHTML = "";
-
   if (event.target.checked) {
     productsArg
       .filter((ecFilter) => {
         productContainer.innerHTML = "";
-        return ecFilter.exist;
+        return ecFilter.exist == true;
       })
       .forEach((existForEach) => {
         createElement(existForEach);
         removeButton(products);
       });
   } else {
-    products.forEach((pro) => {
+    productsArg.forEach((pro) => {
       createElement(pro);
       removeButton(products);
     });
   }
+  refreshJson(products);
 };
