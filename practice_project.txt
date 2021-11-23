@@ -6,3 +6,5 @@ Practice And Project OF The Course
 - Search On The Element 
 
 - exist product checkbox
+
+- using uuid for projects
