@@ -93,3 +93,34 @@ Whats I Learned?
     - Promise.allSettled([]);
 
     - myPromise.finally();
+
+- async
+
+    - await
+
+    - store promise object in to variable
+
+    - try 
+
+    - catch // nokte joda az inke error haye rejecti ro catch mikone miad har errory ham toye try bashe ro catch mikone 
+
+    - catch parameters
+
+    - finally
+    
+
+- fetch(); (promise function)
+
+
+- send data to api (post)
+
+    - fetch(URL, {
+        method: "POST",
+        headers: {
+            "Content-Type": "application/json"
+        },
+        body: JSON.stringify({
+            title: "New Post",
+        })
+    })
+
