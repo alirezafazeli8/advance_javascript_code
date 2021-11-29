@@ -1,0 +1,205 @@
+{
+  "users": [
+    {
+      "id": 1,
+      "name": "Rick",
+      "email": "rick@gmail.com"
+    },
+    {
+      "id": 2,
+      "name": "Glenn",
+      "email": "glenn@gmail.com"
+    },
+    {
+      "id": 3,
+      "name": "Negan",
+      "email": "negan@gmail.com"
+    },
+    {
+      "title": "A blog post by Kingsley",
+      "body": "Brilliant post on fetch API",
+      "userId": 1,
+      "id": 4
+    },
+    {
+      "title": "A blog post by Kingsley",
+      "body": "Brilliant post on fetch API",
+      "userId": 1,
+      "id": 5
+    },
+    {
+      "title": "A blog post by Kingsley",
+      "body": "Brilliant post on fetch API",
+      "userId": 1,
+      "id": 6
+    },
+    {
+      "title": "A blog post by Kingsley",
+      "body": "Brilliant post on fetch API",
+      "userId": 1,
+      "id": 7
+    },
+    {
+      "title": "A blog post by Kingsley",
+      "body": "Brilliant post on fetch API",
+      "userId": 1,
+      "id": 8
+    },
+    {
+      "title": "A blog post by Kingsley",
+      "body": "Brilliant post on fetch API",
+      "userId": 1,
+      "id": 9
+    },
+    {
+      "title": "A blog post by Kingsley",
+      "body": "Brilliant post on fetch API",
+      "userId": 1,
+      "id": 10
+    },
+    {
+      "title": "A blog post by Kingsley",
+      "body": "Brilliant post on fetch API",
+      "userId": 1,
+      "id": 11
+    },
+    {
+      "title": "A blog post by Kingsley",
+      "body": "Brilliant post on fetch API",
+      "userId": 1,
+      "id": 12
+    },
+    {
+      "title": "A blog post by Kingsley",
+      "body": "Brilliant post on fetch API",
+      "userId": 1,
+      "id": 13
+    },
+    {
+      "title": "A blog post by Kingsley",
+      "body": "Brilliant post on fetch API",
+      "userId": 1,
+      "id": 14
+    },
+    {
+      "title": "A blog post by Kingsley",
+      "body": "Brilliant post on fetch API",
+      "userId": 1,
+      "id": 15
+    },
+    {
+      "title": "A blog post by Kingsley",
+      "body": "Brilliant post on fetch API",
+      "userId": 1,
+      "id": 16
+    },
+    {
+      "title": "A blog post by Kingsley",
+      "body": "Brilliant post on fetch API",
+      "userId": 1,
+      "id": 17
+    },
+    {
+      "title": "A blog post by Kingsley",
+      "body": "Brilliant post on fetch API",
+      "userId": 1,
+      "id": 18
+    },
+    {
+      "title": "A blog post by Kingsley",
+      "body": "Brilliant post on fetch API",
+      "userId": 1,
+      "id": 19
+    },
+    {
+      "title": "A blog post by Kingsley",
+      "body": "Brilliant post on fetch API",
+      "userId": 1,
+      "id": 20
+    },
+    {
+      "title": "A blog post by Kingsley",
+      "body": "Brilliant post on fetch API",
+      "userId": 1,
+      "id": 21
+    },
+    {
+      "title": "A blog post by Kingsley",
+      "body": "Brilliant post on fetch API",
+      "userId": 1,
+      "id": 22
+    },
+    {
+      "title": "A blog post by Kingsley",
+      "body": "Brilliant post on fetch API",
+      "userId": 1,
+      "id": 23
+    },
+    {
+      "title": "A blog post by Kingsley",
+      "body": "Brilliant post on fetch API",
+      "userId": 1,
+      "id": 24
+    },
+    {
+      "title": "A blog post by Kingsley",
+      "body": "Brilliant post on fetch API",
+      "userId": 1,
+      "id": 25
+    },
+    {
+      "title": "A blog post by Kingsley",
+      "body": "Brilliant post on fetch API",
+      "userId": 1,
+      "id": 26
+    },
+    {
+      "title": "A blog post by Kingsley",
+      "body": "Brilliant post on fetch API",
+      "userId": 1,
+      "id": 27
+    },
+    {
+      "title": "A blog post by Kingsley",
+      "body": "Brilliant post on fetch API",
+      "userId": 1,
+      "id": 28
+    },
+    {
+      "title": "A blog post by Kingsley",
+      "body": "Brilliant post on fetch API",
+      "userId": 1,
+      "id": 29
+    },
+    {
+      "title": "A blog post by Kingsley",
+      "body": "Brilliant post on fetch API",
+      "userId": 1,
+      "id": 30
+    },
+    {
+      "title": "A blog post by Kingsley",
+      "body": "Brilliant post on fetch API",
+      "userId": 1,
+      "id": 31
+    },
+    {
+      "title": "A blog post by Kingsley",
+      "body": "Brilliant post on fetch API",
+      "userId": 2,
+      "id": 32
+    },
+    {
+      "title": "A blog post by Kingsley",
+      "body": "Brilliant post on fetch API",
+      "userId": 2,
+      "id": 33
+    },
+    {
+      "title": "A blog post by Kingsley",
+      "body": "Brilliant post on fetch API",
+      "userId": 2,
+      "id": 34
+    }
+  ]
+}
