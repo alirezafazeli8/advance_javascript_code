@@ -124,3 +124,48 @@ Whats I Learned?
         })
     })
 
+
+- Browser Storage 
+
+    - (Local Storage) | Size = 10MB | Expires : Never | storage place  = Client (browser) | Work With Data =  Easy
+
+    - (Cookies) | Size = 4KB | Expires : Manual | storage place  = Client / Server | Work With Data =  Hard
+
+    - (Session Storage)| Size = 5MB | Expires : When Tab Is Close | storage place  = Client (browser) | Work With Data =  Easy
+ 
+
+    - Local Storage
+
+        - localStorage.setItem("key", "value");
+
+        - localStorage.removeItem("key");
+
+        - localStorage.getItem("key");
+
+    - Session Storage 
+
+        - sessionStorage.setItem("key", "value");
+
+        - sessionStorage.removeItem("key");
+
+        - sessionStorage.getItem("key");
+
+
+    - Cokkies 
+
+        - document.cookie = `name=alireza; expires=${new Date(9999, 0,1).toUTCstring()}`
+
+
+
+- html (template) tag
+
+
+- .content 
+
+- .cloneNode();
+
+- .matches() (method)
+
+- .valueOf(); 
+
+- create specific unique id with date
