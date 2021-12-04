@@ -8,3 +8,8 @@ Practice And Project OF The Course
 - exist product checkbox
 
 - using uuid for projects
+
+- todolist application (local storage)
+
+- expand collapse
+
