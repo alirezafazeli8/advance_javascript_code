@@ -81,14 +81,14 @@ Whats I Learned?
 
     - myPromise.catch(value);
 
-    - myPromise.all([]);
+    - Promise.all([]); // for resolve promise
     // nokte: age hata yekdoone az item haye toye all reject bashe in faghat reject ro neshoon mide.
 
     - Promise shorthand
 
     - Promise.any([]);
 
-    - Promise.race([]);
+    - Promise.race([]); // for reject promise
 
     - Promise.allSettled([]);
 
@@ -169,3 +169,15 @@ Whats I Learned?
 - .valueOf(); 
 
 - create specific unique id with date
+
+- map box api
+
+- navigator.geolocation
+
+- navigator.geolocation.getCurrentPosition()
+
+    - load user location when application is started
+
+    - navigation control
+
+    - map box directions
