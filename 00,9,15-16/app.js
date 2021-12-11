@@ -107,21 +107,61 @@
 
 // Fetch The Api
 
-const URL = "./db.json";
+// const URL = "./db.json";
 
-async function dbJson() {
-  const postData = {
-    method: "POST",
-    headers: {
-      "Content-Type": "application/json",
-    },
-    body: JSON.stringify({
-      title: "New Post",
-    }),
-  };
-  const fetchJson = await fetch(URL, postData);
-  const runJson = await fetchJson.json();
-  console.log(runJson.alluser);
-}
+// async function dbJson() {
+//   const postData = {
+//     method: "POST",
+//     headers: {
+//       "Content-Type": "application/json",
+//     },
+//     body: JSON.stringify({
+//       title: "New Post",
+//     }),
+//   };
+//   const fetchJson = await fetch(URL, postData);
+//   const runJson = await fetchJson.json();
+//   console.log(runJson.alluser);
+// }
 
-dbJson();
+// dbJson();
+
+const keyOfStorage = "My_Local_Storage_Key";
+const keyOfSession = "My_Session_Storage_Key";
+
+const info = [
+  {
+    name: "james",
+    age: 30,
+  },
+  {
+    name: "sara",
+    age: 12,
+  },
+];
+
+// const updateData = function (key, info) {
+//   const infoString = JSON.stringify(info);
+//   localStorage.setItem(key, infoString);
+// };
+
+// updateData(keyOfStorage, info);
+// info.push({
+//   family: "mousavi",
+// });
+// updateData(keyOfStorage, info);
+
+// sessionStorage.setItem(keyOfSession, JSON.stringify(info));
+// localStorage.removeItem(keyOfStorage);
+
+// document.cookie = `family=Fazeli; Expires=${new Date("1/1/2022").toUTCString(
+//   0
+// )}`;
+
+// console.log(new Date("1/1/1998").toUTCString(0));
+
+const htmlTemplateTag = document.getElementById("htmlTemplate");
+
+// document.querySelector(".user-container").innerHTML = htmlTemplateTag.innerHTML;
+
+// console.log(htmlTemplateTag.innerHTML);
