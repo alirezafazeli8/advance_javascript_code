@@ -181,3 +181,47 @@ Whats I Learned?
     - navigation control
 
     - map box directions
+
+
+- modules 
+
+    - html (type="module") attribute
+
+    - html (nomodule) attribute
+
+    - export
+
+        - export default 
+
+    - import
+
+    - as (keyword)
+
+
+
+- node.js modules 
+
+    - module.exports = {
+        key: variableName,
+    }
+
+    - require("js file path");
+
+- npm 
+
+    - npm install packageName
+
+    - npm init -y
+
+    - install package from package.json
+
+
+- .gitignore // if we use this file name we can ignore a specific folder or file in git
+
+- parcel
+
+    - parcel script command
+
+        - parcel index.html
+
+        - parcel build index.html
