@@ -848,10 +848,21 @@ ______________Advance DOM and Events_______________
 
 - .gitignore // if we use this file name we can ignore a specific folder or file in git
 
-- parcel
+- parcel Bundlers
 
     - parcel script command
 
         - parcel index.html
 
         - parcel build index.html
+
+
+- date-fns Library
+
+    - .format() 
+
+    - .getUnixTime()
+
+    - .fromUnixTime()
+
+    - .addMonths()
