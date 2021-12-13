@@ -1,6 +1,6 @@
 "use strict";
 
-const cow = require("cowsay");
+// const cow = require("cowsay");
 
 // import modulesAll from "./app.js";
 
@@ -14,10 +14,10 @@ const cow = require("cowsay");
 
 // console.log(modulesAll.startModules);
 
-console.log(
-  cow.say({
-    text: "Hello Im From NPM",
-    e: "👀", // eyes
-    r: false, // random mode - use a random cow.
-  })
-);
+// console.log(
+//   cow.say({
+//     text: "Hello Im From NPM",
+//     e: "👀", // eyes
+//     r: false, // random mode - use a random cow.
+//   })
+// );

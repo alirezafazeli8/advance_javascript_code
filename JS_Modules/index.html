@@ -9,6 +9,24 @@
     <script type="module" src="./run.js" defer></script>
   </head>
   <body>
-    <h1>Modules</h1>
+    <h1 id="m">Modules</h1>
+    <template id="tem">
+      <div id="container"></div>
+    </template>
+    <script>
+      // console.log(document.getElementById("tem").content);
+      // const h1One = document.querySelector("h1");
+      // const h1Two = h1One.cloneNode(false);
+
+      // console.log(document.getElementById("m").matches("#j"));
+      navigator.geolocation.getCurrentPosition(
+        function (position) {
+          console.log(position);
+        },
+        function (posError) {
+          console.log(posError);
+        }
+      );
+    </script>
   </body>
 </html>
