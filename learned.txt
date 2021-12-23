@@ -866,3 +866,43 @@ ______________Advance DOM and Events_______________
     - .fromUnixTime()
 
     - .addMonths()
+
+- Symbol
+
+    - define symbol
+
+    - Object.getOwnPropertySymbols(symbol);
+
+    - Symbol.for();
+
+    - // OPTIONAL : make a specific property object with symbol :)
+
+- Generators And Interators
+
+    - Generator
+
+        - define function : function*
+
+        - yield
+
+        - generator.next();
+
+        - generator.return();
+
+- getters and setters
+
+    - get myFunc() {}
+
+    - set myFunc() {}
+
+    - private variable (_privateVariable) // faghat baraye namadine 
+
+- Bind Method
+
+- call method
+
+- apply method
+
+- Polyfill
+
+- Babel.js library
