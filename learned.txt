@@ -906,3 +906,16 @@ ______________Advance DOM and Events_______________
 - Polyfill
 
 - Babel.js library
+
+-------OOP------
+
+    - factory functions
+
+    - Object.create();
+
+    - .__proto__
+
+    - Constructor Functions // notice : we should use capital letters for assigning new variable to show developers this variable worked with new keyword
+
+    - .prototype
+
