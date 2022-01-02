@@ -116,3 +116,188 @@
 // const newElf = createElf("piggy");
 
 // console.log(newElf);
+
+// const city = {
+//   name: "new york",
+//   width: 5000,
+//   popularity: 434324,
+
+//   howMany() {
+//     return `${this.name} has ${this.popularity} popularitys in the city`;
+//   },
+// };
+
+// console.log(city.name);
+// console.log(city.howMany());
+
+// const creatCity = function (name, popularity) {
+//   return {
+//     name,
+//     popularity,
+//     howMany() {
+//       return `${this.name} has ${this.popularity} popularitys in the city`;
+//     },
+//   };
+// };
+
+// const newYork = creatCity("new york", 4324);
+// const neka = creatCity("neka", 3424);
+
+// console.log(newYork.howMany());
+// console.log(neka.howMany());
+
+// const sayMyName = function () {
+//   return {
+//     yourName() {
+//       return `your name is ${this.name}`;
+//     },
+//   };
+// };
+
+// // const userInfo = function() {
+
+// // }
+
+// const newSayMyName = Object.create(sayMyName());
+// newSayMyName.name = "alireza";
+
+// // console.log(newSayMyName.yourName());
+
+// console.log(newSayMyNam);
+
+// const human = function (name) {
+//   this.name = name;
+// };
+
+// // console.log(new human("alrieza"));
+
+// human.prototype.sayName = function () {
+//   console.log("hello im proto");
+// };
+
+// console.log(new human().__proto__);
+
+// function sayMyName() {
+//   console.log("alireza");
+// }
+
+// console.log(sayMyName.prototype);
+
+// const creatElf = function (name, weapon) {
+//   return {
+//     name,
+//     weapon,
+//   };
+// };
+
+// creatElf.__proto__.attack = function () {
+//   return this.name + "attack is started";
+// };
+
+// const myElf = creatElf("jija", "fire");
+
+// console.log(creatElf("dasd", "dasda").at);
+
+// console.log(myElf instanceof creatElf);
+
+// class elf {
+//   constructor(name, weapon) {
+//     this.name = name;
+//     this.weapon = weapon;
+//   }
+
+//   attack() {
+//     return this.name + " is attacked with " + this.weapon;
+//   }
+
+//   build() {
+//     console.log("Building is started");
+//     const building = function () {
+//       console.log("compeletd");
+//     };
+
+//     building();
+//   }
+// }
+
+// const newElf = new elf("jiha", "fire");
+
+// console.log(newElf);
+// newElf.attack();
+
+// newElf.build();
+// // let tt = "";
+// // console.log(newElf instanceof tt);
+
+// const elf = {
+//   attack() {
+//     return this.name + " is attacked";
+//   },
+// };
+
+// const newElf = Object.create(elf);
+// newElf.name = "jiha";
+
+// console.log(newElf.attack());
+
+// const myFunc = function () {};
+
+// console.log(new myFunc());
+
+// class hero {
+//   #age = 23;
+//   constructor(name, weapon) {
+//     (this.name = name), (this.weapon = weapon);
+//   }
+//   attack() {
+//     return `${this.name} is attacked with ${this.weapon}`;
+//   }
+// }
+
+// // const newHero = new hero();
+// // newHero.#age = 5;
+// // console.log(newHero);
+
+// class elf extends hero {
+//   constructor(name, weapon, lifeTime) {
+//     super(name, weapon);
+//     this.lifeTime = lifeTime;
+//   }
+// }
+
+// const godElf = new elf("God Elf", "Spell", 3424);
+// console.log(godElf);
+
+// console.log(godElf.attack());
+
+// class advanceHero extends hero {
+//   constructor(name, weapon, type) {
+//     super(name, weapon);
+//     this.type = type;
+//   }
+// }
+
+// const yakuza = new advanceHero("MR.Yakuza", "Fire Hand", "human");
+// console.log(yakuza);
+
+// const jamesBand = { ...yakuza };
+// jamesBand.name = "Mr James";
+// console.log(yakuza.__proto__);
+// console.log(jamesBand.__proto__);
+
+// const Product = {};
+
+// const beard = new Product();
+
+// console.log(new);
+
+const product = function (_name, _price) {
+  const name = _name;
+  const price = _price;
+  this.getName = function () {
+    return name;
+  };
+};
+
+console.log(product("dad").getName);
+

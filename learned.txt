@@ -917,5 +917,49 @@ ______________Advance DOM and Events_______________
 
     - Constructor Functions // notice : we should use capital letters for assigning new variable to show developers this variable worked with new keyword
 
-    - .prototype
+    - .prototype // notice : only on function we can access to the .prototype property
 
+    - classes
+
+        - instance
+
+        - Constructor
+
+        - instanceof // keyword
+
+
+    - inheritance
+    
+        - extends
+
+        - super class
+
+        - .isPrototypeOf();
+
+    - Public vs Private
+
+    - Pillars of OOP
+
+        - Encapsulation
+
+        - Abstraction
+
+        - Inheritance
+
+        - Polymorphism
+
+    - Why We Use OOP ?
+
+        - clear and understandable
+
+        - easy to extend
+
+        - easy to maintain
+
+        - memory efficient
+
+        - dry
+
+
+
+    
