@@ -11,7 +11,7 @@ fundamental 1.
         Primitive : Number, String, Boolean, Undefined, Null, Symbol, Bigint.
     )
     5- let const and var.
-    6- operators (+, -, *, /, %, 
+    6- operators (+, -, *, /, %,
         =+, -=, *=, /=, %=
         => , <=, > , < , =
     ).
@@ -34,13 +34,13 @@ fundamental 2.
     1- strict mode.
     2- functions (
         1- function declaration
-        - return in function 
+        - return in function
         2- function expression
-        3- arrow function expression   
+        3- arrow function expression
     ).
     3- Array
     4- arrays method (
-        1- Push , unShift
+        1- Push , unshift
         2- pop, Shift
         3- index of
         4- include
@@ -58,7 +58,7 @@ fundamental 2.
         3- loop in loop
         4- looping_backward
     }
-    7- while loop 
+    7- while loop
     developer_skill (
         1- chrome Debugger
     )
@@ -84,7 +84,7 @@ DOM and Events Fundamentals.
 
         ).
         5-getElementById();
-        6- document.getElementById().src 
+        6- document.getElementById().src
      ).
     3- eventListener (
         1- click And Function in Event.
@@ -95,19 +95,19 @@ DOM and Events Fundamentals.
     ).
     5- Manipulating Css Style.
     6- refactoring code
-    7- Project(Modal Window Project) 
+    7- Project(Modal Window Project)
     10- key eventlistener (
         keyup.
         keydown.
         keypress.
     ).
-    11- pigGame Project. 
+    11- pigGame Project.
     12 - src
 
 
 _____________________________________________________________________
 
-Topic : How JavaScript Works Behind the Scenes 
+Topic : How JavaScript Works Behind the Scenes
     overview of JavaScript (
         1- high-level programming language
         2- Garbage-collected
@@ -135,7 +135,7 @@ Topic : How JavaScript Works Behind the Scenes
         5- variable lookup
         6- scope chain
     )
-    5- hoisting 
+    5- hoisting
     7- TDZ
     8- this Keyword
     9- method borrowing
@@ -199,9 +199,9 @@ Topic : Data Structures, Modern Operators and Strings.
     )
 ).
 
-13- Map fundamentals ( 
+13- Map fundamentals (
     const myMap = new Map();
-    
+
     myMap.set("name", "alireza");
 
     1-map method's (
@@ -226,7 +226,7 @@ Topic : Data Structures, Modern Operators and Strings.
     ).
 
     4- Map iteration.
-    
+
     5- convert Map to Array : (
         const myMap = new Map();
         const newArray = [...myMap];
@@ -294,7 +294,7 @@ Topic : closer look at functions
         1- store in variable after use argument two.
         2- call with ()().
         2- return with arrow function.
-    ) 
+    )
 ).
 4- call method .
 5- apply method .
@@ -341,9 +341,9 @@ Topic : Working With Arrays (array tools)
     )
     24- new Array()
     25- .fill() (method)
-    26- Array.from() 
+    26- Array.from()
     27- prefix ++ operator
-    
+
 
 
 _________________________Numbers, Dates, Intl and Timer_____________________
@@ -360,7 +360,7 @@ _________________________Numbers, Dates, Intl and Timer_____________________
 5- Number.isInteger();
 6- Math.sqrt();
 7- Math.max();
-8- Math.min(); 
+8- Math.min();
 9- Math.PI; (property)
 10- Math.random();
 
@@ -395,7 +395,7 @@ _________________________Numbers, Dates, Intl and Timer_____________________
     16- new Date(0);
     17- new Date().getFullYear();
     18- Date().getMonth();
-    19- Date().getDate(); NOTE day of the month 
+    19- Date().getDate(); NOTE day of the month
     20- Date().getDay(); NOTE day of the week
     21- Date().getHours();
     22- Date().getMinutes();
@@ -420,18 +420,18 @@ _________________________Numbers, Dates, Intl and Timer_____________________
     30- new Intl.DateTimeFormat();
     31- new Intl.DateTimeFormat("en-US).format(date);
     34- DateTimeFormat option object (
-        key: 
+        key:
             1- hour
-            2- minute 
-            3- day 
-            4- month 
-            5- year 
+            2- minute
+            3- day
+            4- month
+            5- year
             6- weekday
             7- second
         _________________
         value:
             1- numeric
-            2- long 
+            2- long
             3- 2-digit
             4- short
     )
@@ -441,9 +441,9 @@ _________________________Numbers, Dates, Intl and Timer_____________________
     36- new Intl.NumberFormat("en-US").format(1214551210)
 
     37- NumberFormat option (
-        key 
+        key
             1- Style
-            2- unit 
+            2- unit
             3- style: "percent"
             4- currency
             5- useGrouping
@@ -452,12 +452,12 @@ _________________________Numbers, Dates, Intl and Timer_____________________
     38- setTimeout() (function)
 
     39- setTimeout callback function arguments
-    
+
     40- clearTimeout()
 
     41- setInterval()
-    
-    42- clearInterval(); 
+
+    42- clearInterval();
 
 
 ______________Advance DOM and Events_______________
@@ -469,13 +469,13 @@ ______________Advance DOM and Events_______________
             - document.documentElement
             - document.head
             - document.body
-            - .getElementsByTagName() 
+            - .getElementsByTagName()
             - node list .
             - HTMLCollection .
             - .getElementByClassName()
 
             .parentElement();
-    
+
         ___Creating and Inserting elements___
             - .createElement("div");
             - .innerHtml (property)
@@ -511,11 +511,11 @@ ______________Advance DOM and Events_______________
             - .classList.remove();
 
             - .classList.toggle();
-            
+
             - .classList.contains();
 
     - smooth scrolling
-    
+
     - .getBoundingClientRect();
     - .window.pageXOffset
 
@@ -535,7 +535,7 @@ ______________Advance DOM and Events_______________
 
     - .scrollIntoView({behavior: "smooth"});
 
-    - .onmouseenter 
+    - .onmouseenter
     (property)
 
     - run event for once
@@ -546,7 +546,7 @@ ______________Advance DOM and Events_______________
         - bubbling phase event (information)
 
         - capture phase event (information)
-        
+
         - target phase event (information)
 
         - addEventListener Object (
@@ -565,7 +565,7 @@ ______________Advance DOM and Events_______________
 
     - event.StopPropagation(); (method)
 
-- Event Delegation 
+- Event Delegation
 
 - DOM Traversing
 
@@ -586,11 +586,11 @@ ______________Advance DOM and Events_______________
     - .closest() (method)
 
     - .previousElementSibling
-    
+
     - .nextElementSibling
 
-    - .previousSibling 
-    
+    - .previousSibling
+
     - .nextSibling
 
 - Tabbed Component
@@ -630,7 +630,7 @@ ______________Advance DOM and Events_______________
 
 
 
-- OOP In JS 
+- OOP In JS
 
 - DOM
 
@@ -671,19 +671,19 @@ ______________Advance DOM and Events_______________
     - checked property in event.target
 
     - e.target.value
- 
 
-     
+
+
 - .include() (string method)
 
-- Html 
+- Html
 
     - label tag for checkbox in html
 
     - select and option tag in html
 
 - crud
-    
+
     - localStorage
 
         - localStorage.setItem();
@@ -732,14 +732,14 @@ ______________Advance DOM and Events_______________
 
     - store promise object in to variable
 
-    - try 
+    - try
 
-    - catch // nokte joda az inke error haye rejecti ro catch mikone miad har errory ham toye try bashe ro catch mikone 
+    - catch // nokte joda az inke error haye rejecti ro catch mikone miad har errory ham toye try bashe ro catch mikone
 
     - catch parameters
 
     - finally
-    
+
 
 - fetch(); (promise function)
 
@@ -757,14 +757,14 @@ ______________Advance DOM and Events_______________
     })
 
 
-- Browser Storage 
+- Browser Storage
 
     - (Local Storage) | Size = 10MB | Expires : Never | storage place  = Client (browser) | Work With Data =  Easy
 
     - (Cookies) | Size = 4KB | Expires : Manual | storage place  = Client / Server | Work With Data =  Hard
 
     - (Session Storage)| Size = 5MB | Expires : When Tab Is Close | storage place  = Client (browser) | Work With Data =  Easy
- 
+
 
     - Local Storage
 
@@ -774,7 +774,7 @@ ______________Advance DOM and Events_______________
 
         - localStorage.getItem("key");
 
-    - Session Storage 
+    - Session Storage
 
         - sessionStorage.setItem("key", "value");
 
@@ -783,7 +783,7 @@ ______________Advance DOM and Events_______________
         - sessionStorage.getItem("key");
 
 
-    - Cokkies 
+    - Cokkies
 
         - document.cookie = `name=alireza; expires=${new Date(9999, 0,1).toUTCstring()}`
 
@@ -792,7 +792,7 @@ ______________Advance DOM and Events_______________
 - html (template) tag
 
 
-- .content 
+- .content
 
 - .cloneNode();
 
@@ -813,7 +813,7 @@ ______________Advance DOM and Events_______________
     - map box directions
 
 
-- modules 
+- modules
 
     - html (type="module") attribute
 
@@ -821,7 +821,7 @@ ______________Advance DOM and Events_______________
 
     - export
 
-        - export default 
+        - export default
 
     - import
 
@@ -829,7 +829,7 @@ ______________Advance DOM and Events_______________
 
 
 
-- node.js modules 
+- node.js modules
 
     - module.exports = {
         key: variableName,
@@ -837,7 +837,7 @@ ______________Advance DOM and Events_______________
 
     - require("js file path");
 
-- npm 
+- npm
 
     - npm install packageName
 
@@ -859,7 +859,7 @@ ______________Advance DOM and Events_______________
 
 - date-fns Library
 
-    - .format() 
+    - .format()
 
     - .getUnixTime()
 
@@ -877,17 +877,16 @@ ______________Advance DOM and Events_______________
 
     - // OPTIONAL : make a specific property object with symbol :)
 
-- Generators And Interators
 
-    - Generator
+- Generator
 
-        - define function : function*
+    - define function : function*
 
-        - yield
+    - yield
 
-        - generator.next();
+    - generator.next();
 
-        - generator.return();
+    - generator.return();
 
 - getters and setters
 
@@ -895,15 +894,11 @@ ______________Advance DOM and Events_______________
 
     - set myFunc() {}
 
-    - private variable (_privateVariable) // faghat baraye namadine 
-
 - Bind Method
 
 - call method
 
 - apply method
-
-- Polyfill
 
 - Babel.js library
 
@@ -929,7 +924,7 @@ ______________Advance DOM and Events_______________
 
 
     - inheritance
-    
+
         - extends
 
         - super class
@@ -937,6 +932,8 @@ ______________Advance DOM and Events_______________
         - .isPrototypeOf();
 
     - Public vs Private
+
+	- static
 
     - Pillars of OOP
 
@@ -959,7 +956,3 @@ ______________Advance DOM and Events_______________
         - memory efficient
 
         - dry
-
-
-
-    

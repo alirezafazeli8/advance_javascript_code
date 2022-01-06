@@ -291,13 +291,121 @@
 
 // console.log(new);
 
-const product = function (_name, _price) {
-  const name = _name;
-  const price = _price;
-  this.getName = function () {
-    return name;
-  };
-};
+// const product = function (_name, _price) {
+//   const name = _name;
+//   const price = _price;
+//   this.getName = function () {
+//     return name;
+//   };
+// };
 
-console.log(product("dad").getName);
+// console.log(product("dad").getName);
 
+// const userInfo = {
+
+// }
+
+// function Person(name, age) {}
+
+// console.log(new Person());
+
+// class Human {
+//   constructor(name, age) {
+//     this.name = name;
+//     this.age = age;
+//   }
+// }
+
+// const alireza = new Human("alireza", 17);
+// console.log(alireza);
+
+// const Human = {
+//   init(name, age) {
+//     this.name = name;
+//     this.age = age;
+//   },
+// };
+
+// const alireza = Object.create(Human);
+// alireza.init("alireza", 17);
+
+// console.log(alireza);
+
+// function sayMyName() {
+//   return "alireza";
+// }
+
+// function* nextNumberGenerators() {
+//   yield 1;
+//   yield 2;
+//   yield 3;
+// }
+
+// const nextNumber = nextNumberGenerators();
+// console.log(nextNumber.next());
+// console.log(nextNumber.next());
+// console.log(nextNumber.next());
+// console.log(nextNumber.next());
+
+// console.log(nextNumber.next());
+// // console.log(nextNumber.next());
+// // console.log(nextNumber.next());
+// console.log(nextNumber.return());
+
+// while (true) {
+//   const next = nextNumber.next();
+//   if (next.done != true) {
+//     console.log(next);
+//   } else {
+//     break;
+//   }
+// }
+
+// const sayMyName = function () {
+//   return `your name  is  ${this.name}`;
+// };
+
+// const humanOne = {
+//   name: "sajjad",
+// };
+
+// const humanTwo = {
+//   name: "alireza",
+// };
+
+// const userInfo = {
+//   name: "AnonyMous",
+//   lastName: "Kazem",
+//   set setName(name) {
+//     this.name = name;
+//   },
+//   get completeName() {
+//     return `name is ${this.name} and lastName is ${this.lastName}`;
+//   },
+// };
+
+// // console.log(userInfo.completeName);
+// userInfo.setName = "alireza";
+// console.log(userInfo);
+
+class Human {
+  constructor(name, age) {
+    (this.name = name), (this.age = age);
+  }
+}
+
+class SuperHuman extends Human {
+  constructor(name, age, job) {
+    super(name, age);
+    this.job = job;
+  }
+  static sayHellFromSuperHuman() {
+    return "hello im super human";
+  }
+}
+
+const mySuperHuman = new SuperHuman("alireza", 17, "doctor");
+
+console.log(mySuperHuman);
+
+console.log(SuperHuman.sayHellFromSuperHuman());
