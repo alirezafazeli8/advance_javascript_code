@@ -956,3 +956,19 @@ ______________Advance DOM and Events_______________
         - memory efficient
 
         - dry
+
+- functional programming
+
+    - pure function
+
+    - Immutability
+
+        - Object.freeze();
+
+        - deepFreeze Function // we should make this by own
+
+    - higher order functions
+
+    - function composition // use  function to another function
+    
+    - Currying // functions return functions

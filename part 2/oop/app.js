@@ -388,24 +388,46 @@
 // userInfo.setName = "alireza";
 // console.log(userInfo);
 
-class Human {
-  constructor(name, age) {
-    (this.name = name), (this.age = age);
-  }
-}
+// class Human {
+//   constructor(name, age) {
+//     (this.name = name), (this.age = age);
+//   }
+// }
 
-class SuperHuman extends Human {
-  constructor(name, age, job) {
-    super(name, age);
-    this.job = job;
-  }
-  static sayHellFromSuperHuman() {
-    return "hello im super human";
-  }
-}
+// class SuperHuman extends Human {
+//   constructor(name, age, job) {
+//     super(name, age);
+//     this.job = job;
+//   }
+//   static sayHellFromSuperHuman() {
+//     return "hello im super human";
+//   }
+// }
 
-const mySuperHuman = new SuperHuman("alireza", 17, "doctor");
+// const mySuperHuman = new SuperHuman("alireza", 17, "doctor");
 
-console.log(mySuperHuman);
+// console.log(mySuperHuman);
 
-console.log(SuperHuman.sayHellFromSuperHuman());
+// console.log(SuperHuman.sayHellFromSuperHuman());
+
+const userInfo = {
+  name: "jack",
+  age: 17,
+  // setNewName(name) {
+  //   this.name = name;
+  // },
+  set newName(name) {
+    this.name = name;
+  },
+  get showFullInfo() {
+    return `your name is ${this.name} and your Age is ${this.age}`;
+  },
+};
+
+// console.log((userInfo.showFullInfo = "dadasd"));
+
+// console.log(userInfo.name);
+// // userInfo.setNewName("alireza");
+// userInfo.newName = "alireza";
+// console.log(userInfo.name);
+// userInfo.setNewName = ""
